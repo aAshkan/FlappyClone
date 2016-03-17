@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="C:\Users\Amir\Documents\Git_Public\FlappyClone\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll">
+   <Modules>
+    <Module Name="assembly-csharp-firstpass.dll">
+     <Messages>
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Add an AssemblyVersion attribute to 'Assembly-CSharp-firstpass.dll'.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="AppLovin" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'AppLovin' because it creates members of the following IDisposable types: 'AndroidJavaClass'. If 'AppLovin' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="AppLovinTargetingData" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'AppLovinTargetingData' because it creates members of the following IDisposable types: 'AndroidJavaClass'. If 'AppLovinTargetingData' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ObjectDictionary" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ObjectDictionary' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'UnityDictionary&lt;string&gt;', 'UnityDictionary&lt;string, string&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ObjectKvp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'ObjectKvp' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'UnityNameValuePair&lt;string&gt;', 'UnityKeyValuePair&lt;string, string&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Soomla">
+       <Types>
+        <Type Name="BadgeReward" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'BadgeReward' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;Reward&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="RandomReward" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'RandomReward' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;Reward&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Reward" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'Reward' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;Reward&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SequenceReward" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SequenceReward' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;Reward&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VirtualItemReward" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VirtualItemReward' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;Reward&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Soomla.Profile">
+       <Types>
+        <Type Name="ProviderNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'ProviderNotFoundException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UserProfileNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'UserProfileNotFoundException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Soomla.Store">
+       <Types>
+        <Type Name="EquippableVG" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'EquippableVG' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="InsufficientFundsException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'InsufficientFundsException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LifetimeVG" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'LifetimeVG' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NotEnoughGoodsException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'NotEnoughGoodsException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PurchasableVirtualItem" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PurchasableVirtualItem' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SingleUsePackVG" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SingleUsePackVG' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SingleUseVG" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SingleUseVG' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StoreInventory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#EquipVirtualGood(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\Amir\Documents\Git_Public\FlappyClone\Assets\Plugins\Soomla\Store" File="StoreInventory.cs" Line="136">'StoreInventory.EquipVirtualGood(string)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UpgradeVG" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'UpgradeVG' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VirtualCurrency" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VirtualCurrency' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VirtualCurrencyPack" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VirtualCurrencyPack' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VirtualGood" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VirtualGood' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VirtualItem" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'VirtualItem' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'SoomlaEntity&lt;VirtualItem&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="VirtualItemNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'VirtualItemNotFoundException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="UnityEngine">
+       <Types>
+        <Type Name="UnityKeyValuePair`2" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(!0,!1)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-03-17 02:39:02Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Amir\Documents\Git_Public\FlappyClone\Assets\Plugins\Soomla\Core\Config" File="UnityDictionary.cs" Line="57">'UnityKeyValuePair&lt;K, V&gt;.UnityKeyValuePair(K, V)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;UnityKeyValuePair&lt;K, V&gt;..ctor(K, V)&#xD;&#xA;UnityKeyValuePair&lt;K, V&gt;.set_Key(K):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Amir\Documents\Git_Public\FlappyClone\Assets\Plugins\Soomla\Core\Config" File="UnityDictionary.cs" Line="57">'UnityKeyValuePair&lt;K, V&gt;.UnityKeyValuePair(K, V)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;UnityKeyValuePair&lt;K, V&gt;..ctor(K, V)&#xD;&#xA;UnityKeyValuePair&lt;K, V&gt;.set_Value(V):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>COM visible type base types should be COM visible</Name>
+   <Description>COM visible types should have an object hierarchy that is uniformly COM visible.</Description>
+   <Resolution Name="Default">{0} is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Do not call overridable methods in constructors</Name>
+   <Description>Virtual methods defined on the class should not be called from constructors. If a derived class has overridden the method, the derived class version will be called (before the derived class constructor is called).</Description>
+   <Resolution Name="Default">{0} contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016">
+   <Name>Mark assemblies with AssemblyVersionAttribute</Name>
+   <Description>Assemblies should use version numbers. The version number is considered part of an assembly's identity. Versioning is applied by means of the AssemblyVersion attribute.</Description>
+   <Resolution Name="Default">Add an AssemblyVersion attribute to {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182155.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>Mark ISerializable types with SerializableAttribute</Name>
+   <Description>The System.Runtime.Serialization.ISerializable interface allows the type to customize its serialization, while the Serializable attribute enables the runtime to recognize the type as being serializable.</Description>
+   <Resolution Name="Default">Add [Serializable] to {0} as this type implements ISerializable.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>Rethrow to preserve stack details</Name>
+   <Description>Use the IL rethrow instruction to preserve original stack details when re-raising a caught exception.</Description>
+   <Resolution Name="Default">{0} rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="DependsOnFix">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}. If {0} has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird Course.CSharp.Plugins", "Flappy Bird Course.CSharp.Plugins.csproj", "{3E88DBEA-79E5-4472-66CF-433E697F5983}"
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyClone.CSharp.Plugins", "FlappyClone.CSharp.Plugins.csproj", "{3E88DBEA-79E5-4472-66CF-433E697F5983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird Course.CSharp", "Flappy Bird Course.CSharp.csproj", "{535C7198-2A5E-DF89-2A79-B47576BCB0EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyClone.CSharp", "FlappyClone.CSharp.csproj", "{535C7198-2A5E-DF89-2A79-B47576BCB0EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird Course.CSharp.Editor", "Flappy Bird Course.CSharp.Editor.csproj", "{8D2EC375-26EE-33F7-B6E3-A127EEC86CF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyClone.CSharp.Editor", "FlappyClone.CSharp.Editor.csproj", "{8D2EC375-26EE-33F7-B6E3-A127EEC86CF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

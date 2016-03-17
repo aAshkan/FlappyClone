@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>5.3.0f4</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -101,13 +103,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Flappy Bird Course.CSharp.Plugins.csproj">
+    <ProjectReference Include="FlappyClone.CSharp.Plugins.csproj">
       <Project>{3E88DBEA-79E5-4472-66CF-433E697F5983}</Project>
-      <Name>Flappy Bird Course.CSharp.Plugins</Name>
+      <Name>FlappyClone.CSharp.Plugins</Name>
     </ProjectReference>
-    <ProjectReference Include="Flappy Bird Course.CSharp.csproj">
+    <ProjectReference Include="FlappyClone.CSharp.csproj">
       <Project>{535C7198-2A5E-DF89-2A79-B47576BCB0EA}</Project>
-      <Name>Flappy Bird Course.CSharp</Name>
+      <Name>FlappyClone.CSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
